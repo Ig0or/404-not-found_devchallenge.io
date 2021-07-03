@@ -83,7 +83,7 @@ footer span {
 }
 
 @media (max-width: 600px) {
-  .header h1 {
+  header h1 {
     margin-bottom: 64px;
   }
 
