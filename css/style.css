@@ -1,0 +1,93 @@
+/* Reset */
+body, h1, img, h2, p, a{
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  padding: 40px calc((100% - 1200px) / 2);
+}
+
+.header h1 {
+  margin: 0 10px;
+  font-family: Inconsolata, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+/* Content */
+.content {
+  padding: 40px calc((100% - 1200px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content--img {
+  flex: 1 1 300px;
+  margin: 0 10px 40px 10px;
+}
+
+.content--info {
+  flex: 2 1 300px;
+  margin: 0 10px 40px 10px;
+}
+
+.content--info h2{
+  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: #333333;
+}
+
+.content--info p {
+  max-width: 400px;
+  margin-top: 36px;
+  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #4f4f4f;
+}
+
+.content--info a {
+  display: inline-block;
+  margin-top: 64px;
+  padding: 24px 44px;
+  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #333333;
+  color: white;
+}
+
+@media(max-width: 500px){
+  .content--info h2{
+  font-size: 3rem;
+  }
+
+  .content--info p {
+  font-size: 1.125rem;
+  }
+}
+
+/* Footer */
+.footer {
+  padding: 40px calc((100% - 1200px) / 2);
+}
+
+.footer p {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: .875rem;
+  color: #bdbdbd;
+}
